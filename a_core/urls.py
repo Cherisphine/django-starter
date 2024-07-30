@@ -21,7 +21,7 @@ from django.conf import settings
 from a_users.views import profile_view
 from a_home.views import *
 
-# new url
+# new url file
 
 urlpatterns = [
      path('', include('a_rtchat.urls')),
